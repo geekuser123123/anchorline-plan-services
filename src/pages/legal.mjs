@@ -48,7 +48,7 @@ export const privacy = legal({
 <p>When you submit the consultation request form or contact us, we collect what you choose to share, which may include your first and last name, email address, phone number, business type, area of interest, preferred time to talk, your message, and your consent to be contacted.</p>
 <p>Please do not submit Social Security numbers, account numbers, passwords, or other sensitive financial or health information through the website.</p>
 <h3>Information from clients</h3>
-<p>If you engage us for plan services, we receive the plan and business information needed to provide it, including documents you share during meetings at your location — for example plan documents, account statements, contribution and transaction records, and valuation support. We use it only to provide the services you request, keep it confidential, and handle it as described in this policy and our engagement with you.</p>
+<p>If you engage us for plan services, we receive the plan and business information needed to provide it, including documents you share during meetings at our office — for example plan documents, account statements, contribution and transaction records, and valuation support. We use it only to provide the services you request, keep it confidential, and handle it as described in this policy and our engagement with you.</p>
 <h3>Information collected automatically</h3>
 <p>Our hosting provider automatically receives standard technical information when you visit — such as IP address, browser and device type, pages requested, referring page, and date and time — to deliver, secure and troubleshoot the website.</p>
 

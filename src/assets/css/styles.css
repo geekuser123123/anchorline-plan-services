@@ -675,3 +675,5 @@ a.card:hover .card__more .icon { transform: translateX(4px); }
 /* section tints */
 .section--sand { background: var(--fog); }
 .resp__col--us li::before { color: var(--orange); }
+.topbar a { white-space: nowrap; }
+@media (max-width: 600px) { .topbar__extra { display: none; } }

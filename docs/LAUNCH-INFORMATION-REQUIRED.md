@@ -8,7 +8,7 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 - [x] Site URL: `https://anchorline-plan-services.netlify.app`
 - [x] Phone: **(656) 232-3683**
 - [x] Hours: **Monday–Friday, 9:00 AM – 5:00 PM (Eastern Time)**
-- [x] Service area: **Tampa, FL**, as a **service-area business** that meets clients at their location
+- [x] Office: **1703 N Tampa St, Tampa, FL 33602** (storefront; office meetings by appointment)
 - [x] Services confirmed: plan setup assistance, Form 5500-EZ preparation, plan records and
       valuations, year-round support, Self-Directed and Solo 401(k) education, and in-person
       planning meetings

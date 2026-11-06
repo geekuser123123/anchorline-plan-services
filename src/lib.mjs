@@ -58,7 +58,7 @@ export const SERVICES = [
   { key: 'solo401k', id: 'solo-401k-education', title: 'Solo 401(k) Education', icon: 'person', group: 'education',
     short: 'Who qualifies, how contributions work in both roles, Roth options and annual filing rules.' },
   { key: 'consultation', id: 'meetings', title: 'In-Person Planning Meetings', icon: 'chat', group: 'education',
-    short: 'A conversation at your Tampa home or office about your plan and the next steps that make sense.' },
+    short: 'A conversation at our Tampa office about your plan and the next steps that make sense.' },
 ].filter((s) => config.services[s.key]?.offered);
 
 // ------------------------------------------------------------------ icons

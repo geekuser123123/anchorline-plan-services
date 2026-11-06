@@ -8,7 +8,7 @@ const crumbs = [
 const PLAN_STATUS = ['No plan yet', 'I have a Solo 401(k)', 'I have a self-directed 401(k)', 'I have another plan type', 'Not sure'];
 const BUSINESS_TYPES = ['Sole proprietor / independent contractor', 'Single-member LLC', 'Multi-member LLC or partnership', 'S corporation', 'C corporation', 'Not yet established', 'Other / not sure'];
 const TIMES = ['Morning', 'Midday', 'Afternoon', 'No preference'];
-const WHERE = ['My office', 'My home', 'Phone call first'];
+const WHERE = ['At the Anchorline office', 'Phone call first'];
 
 function mapEmbed() {
   const a = B.address;
@@ -20,14 +20,14 @@ function mapEmbed() {
 export default {
   path: '/contact/',
   title: 'Contact Anchorline Plan Services | Tampa, FL',
-  description: `Request a meeting with Anchorline Plan Services at your home or office in Tampa about Solo 401(k) setup, Form 5500-EZ or plan records. Call ${B.phone}.`,
+  description: `Request a meeting with Anchorline Plan Services at our office on N Tampa St in Tampa about Solo 401(k) setup, Form 5500-EZ or plan records. Call ${B.phone}.`,
   crumbs,
   pageType: 'ContactPage',
   body: () => `
 ${pageHero({
   kicker: 'Contact',
   title: 'Request a meeting',
-  lead: 'Share a few details about your business and your plan. We’ll call to set a time at your home or office in Tampa.',
+  lead: 'Share a few details about your business and your plan. We’ll call to set a time at our office in downtown Tampa.',
   crumbs,
 })}
 
@@ -53,7 +53,7 @@ ${pageHero({
         </div>
         <div class="field"><label for="plan-status">Current plan status <span aria-hidden="true">*</span></label><select id="plan-status" name="plan_status" required><option value="">Select…</option>${PLAN_STATUS.map((t) => `<option>${esc(t)}</option>`).join('')}</select></div>
         <fieldset class="field field--choices">
-          <legend>Where would you like to meet?</legend>
+          <legend>How would you like to start?</legend>
           <div class="choices">${WHERE.map((t, i) => `<label class="choice"><input type="radio" name="meeting_place" value="${t}"${i === 0 ? ' checked' : ''}><span>${t}</span></label>`).join('')}</div>
         </fieldset>
         <fieldset class="field field--choices">
@@ -83,7 +83,7 @@ ${pageHero({
         <ol class="next">
           <li>We review your request.</li>
           <li>We contact you to arrange a time.</li>
-          <li>We meet at your location and agree what support would help.</li>
+          <li>We meet at our Tampa office and agree what support would help.</li>
         </ol>
         <p class="fine">Please don’t send Social Security numbers, account numbers or passwords through this website.</p>
       </div>

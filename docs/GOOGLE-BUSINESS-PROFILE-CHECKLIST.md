@@ -13,9 +13,11 @@ Use this **after** the website is live and Search Console is verified.
 - **Name:** **Anchorline Plan Services**, exactly as on the website. Register it as a
   fictitious name through **Sunbiz** (Florida Division of Corporations). Florida requires the
   name to be advertised once in a newspaper in your county before you register.
-- **Business type:** **Service business**: you visit clients at their home or office in Tampa.
-  The website shows no address. Google will still ask for your real address for verification
-  and will keep it hidden. Don't use a virtual office or mailbox.
+- **Business type:** **Local store / storefront**: clients visit the office during the posted hours.
+- **Address:** **1703 N Tampa St, Tampa, FL 33602**, entered in GBP exactly as on the website.
+  If the office has a suite or unit number, add it to `business.address.streetAddress` and to GBP
+  identically. The office must be staffed during the posted hours; a virtual office, mailbox or
+  unstaffed coworking address can get the profile suspended.
 - **Service area:** Tampa, FL.
 - **Phone:** **(656) 232-3683**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.

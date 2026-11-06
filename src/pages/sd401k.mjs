@@ -154,6 +154,6 @@ ${guideLayout(
 `,
 )}
 
-${ctaBand({ heading: 'Want help keeping a self-directed plan shipshape?', text: 'We’ll meet you in Tampa and keep your plan’s records and filings on course.', button: 'Request a Meeting' })}
+${ctaBand({ heading: 'Want help keeping a self-directed plan shipshape?', text: 'Visit our Tampa office and we’ll keep your plan’s records and filings on course.', button: 'Request a Meeting' })}
 `,
 };

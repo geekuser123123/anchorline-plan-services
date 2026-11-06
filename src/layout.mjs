@@ -19,7 +19,7 @@ function header(path) {
   return `<a class="skip" href="#main">Skip to main content</a>
 <div class="topbar">
   <div class="container topbar__inner">
-    <p>${icon('pin')}<span>Serving ${esc(B.serviceArea.join(' · '))}</span></p>
+    <p>${icon('pin')}<span>${esc(B.address.streetAddress)}, ${esc(B.address.addressLocality)}<span class="topbar__extra"> · Office visits by appointment</span></span></p>
     <p class="topbar__right">${B.phone ? `<a href="${phoneHref()}">${icon('phone')}<span>${esc(B.phone)}</span></a>` : ''}<span class="topbar__sep" aria-hidden="true"></span><span>${hoursShort()}</span></p>
   </div>
 </div>

@@ -1,4 +1,4 @@
-import { icon, pageHero, ctaBand, esc, B, cfg, phoneHtml, mediaImg } from '../lib.mjs';
+import { icon, pageHero, ctaBand, esc, B, cfg, phoneHtml, mediaImg, addressHtml } from '../lib.mjs';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -8,7 +8,7 @@ const crumbs = [
 const VALUES = [
   ['shield', 'Steady', 'Calm, consistent work — no rush, no drama, no surprises.'],
   ['compass', 'Clear', 'Plain language about rules, roles and what happens next.'],
-  ['handshake', 'Present', 'We meet at your location and answer when you call.'],
+  ['handshake', 'Present', 'We meet you at our office and answer when you call.'],
   ['layers', 'Thorough', 'Records complete enough that your CPA never has to chase.'],
 ];
 
@@ -16,7 +16,7 @@ export default {
   path: '/about/',
   title: 'About Anchorline Plan Services | Tampa, Florida',
   description:
-    'About Anchorline Plan Services: Solo and self-directed 401(k) plan services and education for Tampa business owners, delivered in person with clear roles and careful records.',
+    'About Anchorline Plan Services: Solo and self-directed 401(k) plan services and education for Tampa business owners, with office meetings in downtown Tampa, clear roles and careful records.',
   crumbs,
   pageType: 'AboutPage',
   body: () => `
@@ -34,7 +34,7 @@ ${pageHero({
       <p class="kicker">Who we are</p>
       <h2 id="who-h">In-person plan services for Tampa</h2>
       <p class="lead">Tampa is home to a growing community of consultants, contractors, medical and legal professionals, real estate investors with businesses of their own, and family-run companies. Many open a Solo 401(k) to save more — and then meet its administrative side.</p>
-      <p>${esc(B.publicName)} works through that side with you: setup with your provider, records kept current, Form 5500-EZ prepared when it’s due, and the rules explained clearly. We meet at your home or office, by appointment.</p>
+      <p>${esc(B.publicName)} works through that side with you: setup with your provider, records kept current, Form 5500-EZ prepared when it’s due, and the rules explained clearly. We meet at our Tampa office, by appointment.</p>
       ${cfg.about.story ? `<div class="prose">${cfg.about.story}</div>` : ''}
       ${B.owner ? `<p><strong>Founded by:</strong> ${esc(B.owner)}</p>` : ''}
     </div>
@@ -74,15 +74,16 @@ ${pageHero({
   <div class="container split">
     <figure class="split__media">${mediaImg('intro', { cls: 'split__img', label: 'Tampa Bay' })}</figure>
     <div class="split__text">
-      <p class="kicker">Where we work</p>
-      <h2 id="area-h">Serving ${esc(B.serviceArea.join(' & '))}</h2>
-      <p>We meet business owners and self-employed professionals at their homes and offices in ${esc(B.serviceArea.join(' and '))}, Monday through Friday, by appointment.</p>
+      <p class="kicker">Visit us</p>
+      <h2 id="area-h">Our Tampa office</h2>
+      <p>We meet business owners and self-employed professionals at our office in downtown Tampa, Monday through Friday, by appointment.</p>
+      <p class="contact-line">${icon('pin')} <span>${addressHtml().replace('<br>', ', ')}</span></p>
       <p class="contact-line">${icon('phone')} ${phoneHtml()}</p>
       <a class="btn btn--dark" href="/contact/">Request a meeting</a>
     </div>
   </div>
 </section>
 
-${ctaBand({ heading: 'Let’s meet where you work.', text: 'Tell us about your plan and we’ll schedule a time at your home or office in Tampa.', button: 'Request a Meeting' })}
+${ctaBand({ heading: 'Let’s talk about your plan.', text: 'Tell us about your plan and we’ll schedule a time at our Tampa office.', button: 'Request a Meeting' })}
 `,
 };

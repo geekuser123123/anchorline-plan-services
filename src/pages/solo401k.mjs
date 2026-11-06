@@ -120,6 +120,6 @@ ${guideLayout(
 `,
 )}
 
-${ctaBand({ heading: 'Thinking about a Solo 401(k)?', text: 'Let’s meet at your Tampa office and talk through setup and the support you’d want afterward.', button: 'Request a Meeting' })}
+${ctaBand({ heading: 'Thinking about a Solo 401(k)?', text: 'Visit our Tampa office and let’s talk through setup and the support you’d want afterward.', button: 'Request a Meeting' })}
 `,
 };

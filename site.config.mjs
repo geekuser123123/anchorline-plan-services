@@ -32,18 +32,19 @@ export default {
     email: null, // optional — hidden until set; visitors use the contact form
 
     /**
-     * "service-area": the business meets clients at the client's location and
-     * does not receive customers at its own address. Address stays hidden.
+     * "office": a staffed office that receives clients during the posted hours
+     * (Google Business Profile storefront). Address, map and storefront schema
+     * are shown. Must match the Google Business Profile exactly.
      */
-    locationType: 'service-area',
-    address: { streetAddress: null, addressLocality: 'Tampa', addressRegion: 'FL', postalCode: null, addressCountry: 'US' },
+    locationType: 'office',
+    address: { streetAddress: '1703 N Tampa St', addressLocality: 'Tampa', addressRegion: 'FL', postalCode: '33602', addressCountry: 'US' },
     geo: null,
     serviceArea: ['Tampa, FL'],
 
     hours: [
       { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '09:00', closes: '17:00' },
     ],
-    hoursNote: 'Meetings at your home or office in Tampa, by appointment.',
+    hoursNote: 'Office meetings by appointment.',
     timeZoneLabel: 'Eastern Time',
 
     sameAs: [],

@@ -10,7 +10,7 @@ const GROUPS = [
     id: 'working-together',
     title: 'Working together',
     faqs: [
-      { q: 'Where do meetings take place?', a: `<p>At your home or office in ${esc(B.serviceArea.join(' and '))}, by appointment. An introductory call can happen by phone.</p>` },
+      { q: 'Where do meetings take place?', a: `<p>At our office at ${esc(B.address.streetAddress)}, ${esc(B.address.addressLocality)}, ${esc(B.address.addressRegion)} ${esc(B.address.postalCode)}, by appointment. An introductory call can happen by phone.</p>` },
       { q: 'When are you available?', a: '<p>Monday through Friday, 9:00 AM to 5:00 PM Eastern Time.</p>' },
       { q: 'What services do you offer?', a: '<p>Plan setup assistance, plan records and valuations, Form 5500-EZ preparation and year-round support for Solo and self-directed 401(k) plans, plus education and planning meetings. See <a href="/services/">Services</a>.</p>' },
       { q: 'Who decides what my plan invests in?', a: '<p>You do. We handle administrative work at your direction and explain the rules; we don’t recommend or approve investments.</p>' },
@@ -81,6 +81,6 @@ ${pageHero({ kicker: 'FAQ', title: 'Clear answers, before we meet', lead: `${all
   </div>
 </div>
 
-${ctaBand({ heading: 'Have a question we didn’t cover?', text: 'Bring it to a meeting at your home or office in Tampa.', button: 'Request a Meeting' })}
+${ctaBand({ heading: 'Have a question we didn’t cover?', text: 'Bring it to a meeting at our Tampa office.', button: 'Request a Meeting' })}
 `,
 };

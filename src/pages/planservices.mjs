@@ -42,10 +42,10 @@ export default {
 ${pageHero({
   kicker: 'Plan services',
   title: 'The administrative side of your 401(k), kept on course',
-  lead: 'Solo and self-directed plans give you real control — and real paperwork. Anchorline handles that work with you, at your direction and alongside your plan provider, with meetings at your Tampa home or office.',
+  lead: 'Solo and self-directed plans give you real control — and real paperwork. Anchorline handles that work with you, at your direction and alongside your plan provider, with meetings at our Tampa office.',
   crumbs,
   image: 'admin',
-  aside: `<dl class="facts"><div><dt>For</dt><dd>Solo &amp; self-directed 401(k) plans</dd></div><div><dt>Meetings</dt><dd>At your location</dd></div><div><dt>Area</dt><dd>${esc(B.serviceArea.join(' · '))}</dd></div></dl>`,
+  aside: `<dl class="facts"><div><dt>For</dt><dd>Solo &amp; self-directed 401(k) plans</dd></div><div><dt>Meetings</dt><dd>At our Tampa office</dd></div><div><dt>Area</dt><dd>${esc(B.serviceArea.join(' · '))}</dd></div></dl>`,
 })}
 
 <section class="section" aria-labelledby="ps-h">
@@ -96,6 +96,6 @@ ${pageHero({
   </div>
 </section>
 
-${ctaBand({ heading: 'Ready to get your plan squared away?', text: 'New plan or existing one, we’ll meet you in Tampa and map out the support that fits.', button: 'Request a Meeting' })}
+${ctaBand({ heading: 'Ready to get your plan squared away?', text: 'New plan or existing one, we’ll meet at our Tampa office and map out the support that fits.', button: 'Request a Meeting' })}
 `,
 };

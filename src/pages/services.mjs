@@ -37,7 +37,7 @@ const DETAIL = {
     covers: ['Eligibility and hiring', 'Employee vs. employer contributions', 'Roth features', 'Deadlines and Form 5500-EZ'],
   },
   consultation: {
-    desc: 'A meeting at your home or office in Tampa to talk through your plan and agree on next steps.',
+    desc: 'A meeting at our Tampa office to talk through your plan and agree on next steps.',
     for: 'Anyone who prefers a conversation to a stack of reading.',
     covers: ['Your situation, start to finish', 'Plain answers', 'Which support would help, if any', 'No obligation'],
   },
@@ -67,7 +67,7 @@ export default {
 ${pageHero({
   kicker: 'Services',
   title: 'Plan services and education for Tampa business owners',
-  lead: 'Everything Anchorline offers for Solo and self-directed 401(k) plans — administrative support and plain-English education, delivered at your home or office.',
+  lead: 'Everything Anchorline offers for Solo and self-directed 401(k) plans — administrative support and plain-English education, with meetings at our Tampa office.',
   crumbs,
   image: 'office',
 })}

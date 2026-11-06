@@ -2,7 +2,7 @@ import { icon, SERVICES, faqList, faqSchema, ctaBand, B, esc, mediaImg, heroVide
 
 const faqs = [
   { q: 'What kind of help does Anchorline provide?', a: '<p>Administrative support and education for Solo and self-directed 401(k) plans: help setting a plan up with your chosen provider, plan records and year-end values, Form 5500-EZ preparation, and a steady contact for questions throughout the year.</p>' },
-  { q: 'Do you come to me?', a: `<p>Yes. We meet at your home or office in ${esc(B.serviceArea.join(' and '))}, by appointment, Monday through Friday. A first call by phone is fine too.</p>` },
+  { q: 'Where do we meet?', a: `<p>At our office at ${esc(B.address.streetAddress)} in ${esc(B.address.addressLocality)}, by appointment, Monday through Friday. A first call by phone is fine too.</p>` },
   { q: 'Who makes the investment decisions?', a: '<p>You do. Anchorline doesn’t recommend, approve or make investments. We keep the plan’s paperwork in order and explain the rules.</p>' },
   { q: 'Do you handle or hold plan money?', a: '<p>No. Plan money stays in accounts titled to your plan at the institutions you choose.</p>' },
   { q: 'Does every Solo 401(k) file Form 5500-EZ?', a: '<p>No. Generally only when total one-participant plan assets exceed $250,000 at the end of the plan year, and in the plan’s final year. We confirm it with you every year.</p>' },
@@ -32,13 +32,13 @@ export default {
   <div class="container hero__inner">
     <p class="kicker kicker--light">Tampa · ${esc(B.tagline)}</p>
     <h1 id="hero-h">Keep your 401(k) <em>steady</em> while you run the business.</h1>
-    <p class="hero__lead">Anchorline helps Tampa business owners and self-employed professionals set up and maintain Solo and self-directed 401(k) plans — clean records, on-time filings, clear answers — with meetings at your home or office.</p>
+    <p class="hero__lead">Anchorline helps Tampa business owners and self-employed professionals set up and maintain Solo and self-directed 401(k) plans — clean records, on-time filings, clear answers — with meetings at our downtown Tampa office.</p>
     <div class="btn-row btn-row--center">
       <a class="btn btn--accent btn--lg" href="/contact/">Request a Meeting</a>
       <a class="btn btn--glass btn--lg" href="/plan-services/">See plan services ${icon('arrow')}</a>
     </div>
     <ul class="hero__chips" aria-label="Highlights">
-      <li>${icon('pin')}We meet you in Tampa</li>
+      <li>${icon('pin')}Office on N Tampa St</li>
       <li>${icon('doc')}Form 5500-EZ prepared for your signature</li>
       <li>${icon('shield')}You stay in charge of every decision</li>
     </ul>
@@ -117,6 +117,6 @@ export default {
   </div>
 </section>
 
-${ctaBand({ heading: 'Let’s get your plan on an even keel.', text: 'Request a meeting at your home or office in Tampa. We’ll review where your plan stands and what support would help.', button: 'Request a Meeting' })}
+${ctaBand({ heading: 'Let’s get your plan on an even keel.', text: 'Request a meeting at our Tampa office. We’ll review where your plan stands and what support would help.', button: 'Request a Meeting' })}
 `,
 };
