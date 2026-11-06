@@ -14,7 +14,7 @@
 export default {
   site: {
     url: 'https://anchorline-plan-services.netlify.app', // no trailing slash
-    googleSiteVerification: null, // Search Console HTML-tag "content" value
+    googleSiteVerification: 'y-L2pjXbsmQGr4tcBCjam5oBMS6LHHCY8Z9mED4xgkY', // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
